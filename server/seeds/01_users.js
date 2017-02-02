@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
                     last_name: 'Gardner',
                     user_name: 'mattlg',
                     email: 'm@g.com',
-                    hashed_pw: 'test',
+                    hashed_pw: 'test'
                 }),
                 knex('users')
                 .insert({
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
                   last_name: 'Gardner',
                   user_name: 'yoyo',
                   email: 'y@g.com',
-                  hashed_pw: 'test',
+                  hashed_pw: 'test'
                 }),
                 knex('users')
                 .insert({
@@ -28,7 +28,7 @@ exports.seed = function(knex, Promise) {
                   last_name: 'Gardner',
                   user_name: 'bigo',
                   email: 'o@g.com',
-                  hashed_pw: 'test',
+                  hashed_pw: 'test'
                 })
             ]);
         });
