@@ -6,4 +6,12 @@ app.config(function($routeProvider, $locationProvider, $httpProvider) {
     templateUrl: '../views/landing.html',
     controller: 'MainController'
   })
+  .when('/signup', {
+    templateUrl: '../views/signup.html',
+    controller: 'SignupController'
+  })
+  .when('/posts', {
+    templateUrl: '../view/posts.html',
+    controller: 'PostsController'
+  })
 })
